@@ -13,9 +13,10 @@
 %  % -------------------------------------------------------------------------
 %                  File Name: Single-Trial EEG classification
 
-main file: main_EEG_Classification.m
+main file: main_EEG_Classification.m (work for old version on Matlab (2015 or 2016))
+main file: 'main_EEG_Classification_2019.m' is working fine on Matlab 2019.
 
-"main_EEG_Classification.m" includes the following steps
+"main_EEG_Classification_2019.m" includes the following steps
 
 1) Load data for BCI Competition-IV dataset 2A- Subject A01: Training and Testing Data 
 2) Band-pass filtering the data in two different frequency bands: [8-12] Hz and [14-30] Hz (i.e. mu and beta band respectively)

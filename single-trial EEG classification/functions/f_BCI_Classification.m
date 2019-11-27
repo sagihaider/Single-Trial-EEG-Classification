@@ -1,5 +1,5 @@
-function [label]=f_BCI_Classification(x,TR_MDL)
+function [label]=f_BCI_Classification(x,model)
 
 % disp('####      Classifying the Features for SVM ####  ' );
-label.SVM=svmclassify(TR_MDL.svm_mdls,x);
+label.SVM=predict(model,x);
 end

@@ -22,8 +22,8 @@ for i=1:nfold
     
     switch CASE
         case 'SVM'
-            mdl = svmtrain(X(trainIdx,:),y(trainIdx),'kktviolationlevel',0.05); %  SVM Classifier Training
-            accc=svmclassify(mdl, X(testIdx,:));  % SVM Classification Testing
+            mdl = fitcsvm(X(trainIdx,:),y(trainIdx)); %  SVM Classifier Training
+            accc=predict(mdl, X(testIdx,:));  % SVM Classification Testing
         case 'LDA'
             W = f_LDAsimple(X(:,trainIdx)',y(trainIdx)');
             % Calulcate linear scores for training data

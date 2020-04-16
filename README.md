@@ -1,20 +1,21 @@
-(c) Haider Raza, Intelligent System Research Center, University of Ulster, Northern Ireland, UK.
-%     Raza-H@email.ulster.ac.uk
-%     Date: 27-Jan-2014
-% Cite this work on the citation given below
-% @article{raza2015adaptive,
-%   title={Adaptive learning with covariate shift-detection for motor imagery-based brain--computer interface},
-%   author={Raza, Haider and Cecotti, Hubert and Li, Yuhua and Prasad, Girijesh},
-%   journal={Soft Computing},
-%   pages={1--12},
-%   year={2015},
-%   publisher={Springer}
-% }
-%  % -------------------------------------------------------------------------
+(c) Haider Raza
+Date: 27-Jan-2014
+
+Cite this work on the citation given below
+
+@article{raza2015adaptive,
+   title={Adaptive learning with covariate shift-detection for motor imagery-based brain--computer interface},
+   author={Raza, Haider and Cecotti, Hubert and Li, Yuhua and Prasad, Girijesh},
+   journal={Soft Computing},
+   pages={1--12},
+   year={2015},
+   publisher={Springer}
+}
+----
 %                  File Name: Single-Trial EEG classification
 
-main file: main_EEG_Classification.m (work for old version on Matlab (2015 or 2016))
-main file: 'main_EEG_Classification_2019.m' is working fine on Matlab 2019.
+**main file**: main_EEG_Classification.m (work for old version on Matlab (2015 or 2016))
+**main file**: 'main_EEG_Classification_2019.m' is working fine on Matlab 2019.
 
 "main_EEG_Classification_2019.m" includes the following steps
 

@@ -24,7 +24,7 @@ Subject_No='A01';
 order = 4;   % Order of the filter
 band=[8 12; 14 30];
 
-do_preprocess=0;
+do_preprocess=1;
 if(do_preprocess==1)
     %==========================================================================
     %%                   Load DATASET Training Data

@@ -10,8 +10,8 @@ Cite this work on the citation given below
    pages={1--12},
    year={2015},
    publisher={Springer}
-}
-----
+   }
+
 %                  File Name: Single-Trial EEG classification
 
 **main file**: main_EEG_Classification.m (work for old version on Matlab (2015 or 2016))
